@@ -96,7 +96,7 @@ gcloud beta composer environments create ${GC_PROJECT_ID} \
 	--disk-size=50GB \
 	--python-version=3 \
 	--machine-type=n1-standard-1 \
-	--image-version=composer-1.7.0-airflow-1.10 && \
+	--image-version=composer-2.0.3-airflow-2.1.4 && \
 
 ### create Airflow connections
 echo "create airflow connections ..." && \
